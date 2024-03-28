@@ -3,40 +3,57 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: white;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.welcomesection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; /* Ensures the section takes up the full height of the viewport */
+  width: 50vh;
+  background-color: green;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homebuttonscard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; /* Ensures the section takes up the full height of the viewport */
+  width: 50vh;
+  background-color: green;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.homebutton {
+  width: 132px;
+  margin: 8px;
 }
 
-.card {
-  padding: 2em;
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #333; /* Example background color */
+  color: white; /* Example text color */
+  padding: 10px 20px; /* Example padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box shadow */
+  z-index: 999; /* Ensure it's above other content */
+  margin-top: 0;
 }
 
-.read-the-docs {
-  color: #888;
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Example background color */
+  color: white; /* Example text color */
+  padding: 10px 20px; /* Example padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box shadow */
+  z-index: 999; /* Ensure it's above other content */
+  margin-bottom: 0;
 }
