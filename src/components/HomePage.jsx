@@ -13,6 +13,13 @@ function HomePage() {
         <Link to={"/Contactme"}>
           <button className="homebutton">Contact</button>
         </Link>
+        <a
+          href="https://docs.google.com/document/export?format=pdf&id=1Y-1bVq6nSDeLfRFcQMrlu8pt90tPz2Jzr6-onzglqaY"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="homebutton">Resume</button>
+        </a>
       </section>
     </>
   );

@@ -2,10 +2,10 @@ function LandingPage() {
   return (
     <>
       <section className="welcomesection">
-        <h1> Welcome to my Porrtfolio</h1>
-        <h3>Click the button below to enter</h3>
+        <h1 className="welcometxth1"> Welcome to my Portfolio</h1>
+        <h3 className="welcometxth3">Click the button below to enter</h3>
         <a href="HomePage">
-          <button>Enter</button>
+          <button className="enterbutton">Enter</button>
         </a>
       </section>
     </>
