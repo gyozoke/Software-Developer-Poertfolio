@@ -17,7 +17,7 @@ function HomePage() {
             <button className="homebutton">Contact</button>
           </Link>
           <a
-            href="https://docs.google.com/document/export?format=pdf&id=1Y-1bVq6nSDeLfRFcQMrlu8pt90tPz2Jzr6-onzglqaY"
+            href="https://drive.google.com/file/d/1Mkl2xx2ooGa4HACX-ZKni9lbRNP1pmNU/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -5,7 +5,7 @@ function Projects() {
         <section className="tipper">
           <h1>Tipper</h1>
           <p>A tipping web application</p>
-          <a href="https://tipper.merin-yilmaz.co.uk/" target="_blank">
+          <a href="https://front-end-eight-eta-57.vercel.app/" target="_blank">
             <img
               className="tipperimg"
               src="https://i.ibb.co/JKSjn0p/tipperimg.png"

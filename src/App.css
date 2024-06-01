@@ -214,3 +214,26 @@
     margin-top: 12px;
   }
 }
+
+.contactme {
+  display: flex;
+  flex-direction: row;
+}
+
+.linkedinimg {
+  width: 100px;
+  height: 100px;
+  margin: 16px;
+}
+
+.gmailimg {
+  width: 130px;
+  height: 100px;
+  margin: 16px;
+}
+
+.githubimg {
+  width: 100px;
+  height: 100px;
+  margin: 16px;
+}
